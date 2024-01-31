@@ -25,3 +25,7 @@
     background-color: #6A0F7B;
     background-position: center;
 }
+.back1{
+    background: url('./assets/greencheckback.svg'); 
+    background-position: center;
+}
