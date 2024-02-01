@@ -7,12 +7,14 @@ import Beware from "./components/Beware";
 import Howto from "./components/Howto";
 import Joinus from "./components/Joinus";
 import Footer from "./components/Footer";
+import Space from "./components/Space";
 
 function App() {
   return (
     <div className="relative">
       <Header />
       <Hero />
+      <Space />
       <Wtf />
       <Watch />
       <Domination />
