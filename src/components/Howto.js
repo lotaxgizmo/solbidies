@@ -1,8 +1,8 @@
 import React from 'react'
 import howto from '../assets/howto.svg'
-import setup from '../assets/setup.svg'
-import select from '../assets/select.svg'
-import confirm from '../assets/confirm.svg'
+import setup from '../assets/setup.gif'
+import select from '../assets/select.gif'
+import confirm from '../assets/confirm.gif'
 import mintblackbtn from '../assets/mintblackbtn.svg'
 
 import setupmob from '../assets/setupmob.svg'

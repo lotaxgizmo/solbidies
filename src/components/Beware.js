@@ -1,5 +1,5 @@
 import React from 'react'
-import beware from '../assets/beware.svg'
+import beware from '../assets/beware.gif'
 import nowhere from '../assets/nowhere.svg'
 
 function Beware() {

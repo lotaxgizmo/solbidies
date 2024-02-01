@@ -1,11 +1,11 @@
 import React from 'react'
 import dominationback from '../assets/dominationback.svg'
-import brainwash from '../assets/brainwash.svg'
+import brainwash from '../assets/brainwash.gif'
 import brainwashmob from '../assets/brainwashmob.svg'
-import extinction from '../assets/extinction.svg'
+import extinction from '../assets/extinction.gif'
 import extinctionmob from '../assets/extinctionmob.svg'
 import takeovermob from '../assets/takeovermob.svg'
-import takeover from '../assets/takeover.svg'
+import takeover from '../assets/takeover.gif'
 import ndpurplebtn from '../assets/ndpurplebtn.svg'
 
 function Domination() {
@@ -13,7 +13,7 @@ function Domination() {
         <div className='bg-[#6A0F7B] h-screens flex flex-col items-center relative pt-5 z-[7]'>
             <img src={dominationback} alt="" className='absolute z-0   Lw-[1000px] lg:top-5' />
 
-            <h2 className='z-10 stretch text-white text-center text-4xl lg:text-8xl'>World Dominations</h2>
+            <h2 className='z-10 stretch text-white text-center text-4xl lg:text-8xl'>World Domination</h2>
 
             <img src={takeover} alt="" className='z-10 my-3 lg:my-7 hidden lg:flex' />
             <img src={brainwash} alt="" className='z-10 my-3 lg:my-7 hidden lg:flex' />

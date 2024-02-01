@@ -2,14 +2,14 @@ import React from 'react'
 import checkback from '../assets/checkback.svg'
 import greenback from '../assets/greenback.svg'
 import gootoilet from '../assets/gootoilet.svg'
-import greengif from '../assets/greengif1.gif'
+import greengif from '../assets/greengif1.GIF'
 import Downdiv from './Wtf/Downdiv'
 
 function Wtf() {
     return (
         <div className='bg-black h-screen. flex flex-col relative overflow-hidden pb-96d '>
             <div className="relative flex flex-col px-4">
-                {/* <img src={greengif} alt="" className='absoluted z-[20] right-20 lg:hidden  flex' /> */}
+                <img src={greengif} alt="" className='absolute z-[10] right-20 lg:hidden  flex' />
                 <div className='flex mt-32'>
                     <h2 className='text-black lg:text-white  mix-blend-normal lg:mix-blend-difference  leading-[100px] text-[90px] monument z-20'>?????</h2>
                 </div>
