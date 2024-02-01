@@ -6,7 +6,7 @@ import popgif from '../../assets/popgif.GIF'
 function Downdiv() {
     return (
         <div className="seclayer h-auto  z-10 bg-[#B8FF00] flex flex-col px-4 pb-20 pt-20 back1">
-            {/* <img src={gootoilet} alt="" className='absoluted z-[20] right-20 lg:hidden  flex' /> */}
+            <img src={popgif} alt="" className='absoluted z-[20] right-10 lg:hidden  flex' />
             <div className="relative text flex flex-col self-ends justify-end items-end">
                 <h2 className='lg:w-[600px] text-black leadisng-[200px] lg:text-right text-[45px] lg:text-[65px] monument z-10 self-end'>
                     WE WANTED TO TAKE THE META-
