@@ -11,7 +11,7 @@ import maingif from '../assets/beware.gif'
 
 function Hero() {
     return (
-        <div className='heroback h-screen lg:h-auto relative flex flex-col   items-center'>
+        <div className='heroback h-screenn pb-14 lg:h-auto relative flex flex-col   items-center'>
             {/* <img src={tophero} alt="" className='mt-32 lg:mt-24 w-[1019px] z-[3]' /> */}
             {/* <img src={maingif} alt="" className='absolute mt-[-s130px]- w-[430px] lg:w-[630px] z-[3] top-52 lg:bottom-10' /> */}
             <img src={maingif} alt="" className='absolute. mt-20 w-[430px] lg:w-[730px] z-[3] top-52 lg:bottom-10' />

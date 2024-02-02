@@ -43,7 +43,7 @@ const SplashPage = ({ onContinueClick }) => {
 
 const MainSite = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-clip">
       <Header />
       <Hero />
       <Space />
