@@ -1,5 +1,5 @@
 import React from 'react'
-import howto from '../assets/howto.svg'
+import howto from '../assets/howto.gif'
 import setup from '../assets/setup.gif'
 import select from '../assets/select.gif'
 import confirm from '../assets/confirm.gif'
@@ -12,7 +12,7 @@ import confirmmob from '../assets/confirmmob.svg'
 function Howto() {
     return (
         <div className='relative bg-black flex flex-col items-center z-[7]'>
-            <img src={howto} alt="" className='z-[7] w-full mb-[-100px] lg:mb-[-300px]' />
+            <img src={howto} alt="" className='z-[7] w-full mb-[-50px] lg:mbd-[-300px]' />
             <img src={setup} alt="" className='z-[7] m-3 my-5 lg:flex hidden' />
             <img src={select} alt="" className='z-[7] m-3 my-5 lg:flex hidden' />
             <img src={confirm} alt="" className='z-[7] m-3 my-5 lg:flex hidden' />
