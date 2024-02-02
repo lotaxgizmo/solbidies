@@ -25,7 +25,7 @@ function Downdiv() {
                 <h2 className=' lg:w-[1100px] text-black leadisng-[200px] text-left text-3xl lg:text-5xl monument z-10'>
                     your Solana down the toilet, bid the Solbidies
                 </h2>
-                <img src={greeenmintbutton} alt="" className='my-10 self-center lg:self-auto' />
+                <img src={greeenmintbutton} alt="" className='glow my-10 self-center lg:self-auto' />
             </div>
 
         </div>

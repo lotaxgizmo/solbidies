@@ -29,7 +29,7 @@ function Domination() {
             <img src={extinctionmob} alt="" className='z-10 lg:my-7 lg:hidden flex my-5 p-2' />
             <img src={eww} alt="" className='z-10 lg:my-7 lg:hidden flex my-5   p-2' />
 
-            <img src={ndpurplebtn} alt="" className='z-10 my-3 lg:my-10 ' />
+            <img src={ndpurplebtn} alt="" className='glow4 z-10 my-3 lg:my-10 ' />
 
         </div>
     )

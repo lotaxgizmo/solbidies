@@ -19,7 +19,7 @@ function Howto() {
             <img src={setupmob} alt="" className='z-[7] m-3 my-5 flex lg:hidden' />
             <img src={selectmob} alt="" className='z-[7] m-3 my-5 flex lg:hidden' />
             <img src={confirmmob} alt="" className='z-[7] m-3 my-5 flex lg:hidden' />
-            <img src={mintblackbtn} alt="" className='z-[7]  my-10' />
+            <img src={mintblackbtn} alt="" className='glow3 z-[7]  my-10' />
         </div>
     )
 }

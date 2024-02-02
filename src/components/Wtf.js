@@ -32,7 +32,7 @@ function Wtf() {
             </div>
 
             <div className="relative flex lg:w-[550px] px-4 z-20 lg:h-20 mt-10">
-                <p className='flex lg:absolute monument text-3xl z-20 top-1 '>
+                <p className='flex lg:absolute monument text-3xl z-20 top-1 text-with-border'>
                     Solbidies is an AI NFT collection found in the deepest recesses of the Solana blockchain. A 3333 count collection paying homage to the most viral meme of 2023, the Skibidi toilets.
                 </p>
             </div>

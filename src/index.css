@@ -29,3 +29,87 @@
     background: url('./assets/greencheckback.svg'); 
     background-position: center;
 }
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+.glow {
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5); /* Initial shadow */
+  animation: pulsate 2s infinite; /* Animation with a duration of 3 seconds */
+}
+
+
+@keyframes pulsate2 {
+  0% {
+    box-shadow: 0 0 20px 0 #BF5FDE;
+  }
+  50% {
+    box-shadow: 0 0 90px 0px #BF5FDE;
+  }
+  100% {
+    box-shadow: 0 0 20px 0 #BF5FDE;
+  }
+}
+
+.glow2 {
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5); /* Initial shadow */
+  animation: pulsate2 2s infinite; /* Animation with a duration of 3 seconds */
+}
+
+@keyframes pulsate3 {
+  0% {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+  50% {
+    box-shadow: 0 0 50px 1px #ffffff;
+  }
+  100% {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+}
+
+.glow3 {
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5); /* Initial shadow */
+  animation: pulsate3 2s infinite; /* Animation with a duration of 3 seconds */
+}
+
+
+@keyframes pulsate4 {
+  0% {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+  50% {
+    box-shadow: 0 0 50px 1px #000000;
+  }
+  100% {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+}
+
+.glow4 {
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5); /* Initial shadow */
+  animation: pulsate4 2s infinite; /* Animation with a duration of 3 seconds */
+}
+
+
+.text-with-border { 
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  /* Adjust the color and shadow values based on your design */
+}

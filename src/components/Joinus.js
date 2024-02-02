@@ -14,10 +14,10 @@ function Joinus() {
             <img src={joinusmob} alt="" className='z-[9] lg:hidden flex lg:rotate-[8.86deg] my-10' />
             <img src={roach} alt="" className='' />
             <div className="z-[9] links flex flex-col lg:flex-row items-center lg:rotate-[8.86deg]">
-                <img src={somethingbtn} alt="" className='z-[9] m-3' />
-                <img src={telegrambtn} alt="" className='z-[9] m-3' />
-                <img src={twitterbtn} alt="" className='z-[9] m-3' />
-                <img src={discordbtn} alt="" className='z-[9] m-3' />
+                <img src={somethingbtn} alt="" className='z-[9] m-3 glow3' />
+                <img src={telegrambtn} alt="" className='z-[9] m-3 glow3' />
+                <img src={twitterbtn} alt="" className='z-[9] m-3 glow3' />
+                <img src={discordbtn} alt="" className='z-[9] m-3 glow3' />
             </div>
 
         </div>
