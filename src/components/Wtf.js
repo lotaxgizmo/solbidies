@@ -2,7 +2,7 @@ import React from 'react'
 import checkback from '../assets/checkback.svg'
 import greenback from '../assets/greenback.svg'
 import gootoilet from '../assets/gootoilet.svg'
-import greengif from '../assets/greengif1.GIF'
+import greengif from '../assets/greengif1.gif'
 import Downdiv from './Wtf/Downdiv'
 
 function Wtf() {
